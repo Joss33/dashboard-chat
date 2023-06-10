@@ -1,0 +1,76 @@
+:root{
+
+  /* Screens */
+
+  --screen-xl: 1600px;
+  --screen-lg: 1200px;
+  --screen-md: 768px;
+  --screen-sm: 360px;
+
+  /* Spacing */
+
+  --spacing-xs: 0.3125rem;
+  --spacing-sm: 0.625rem;
+  --spacing-md: 0.9375rem;
+  --spacing-lg: 1.25rem;
+  --spacing-xl: 1.5625rem;
+  --spacing-2x :1.875rem;
+
+  /* Box Shadows */
+
+  --shadow: 0px 0.125rem 0.3125rem 0px #26334D08;
+
+  /* Colors */
+  --blue: #3361FF;
+  --blue-light-1: #4D74FF;
+  --blue-light-2: #6688FF;
+  --blue-dark-1: #194DFF;
+  --blue-dark-2: #0039FF;
+
+  --pink: #E62E7B;
+  --pink-light-1: #F24990;
+  --pink-light-2: #FF66A6;
+  --pink-dark-1: #D91668;
+  --pink-dark-2: #CC0056;
+
+  --green: #29CC39;
+  --green-light-1: #45E655;
+  --green-light-2: #66FF75;
+  --green-dark-1: #13BF24;
+  --green-dark-2: #00B211;
+
+  --yellow: #FFCB33;
+  --yellow-light-1: #FFD559;
+  --yellow-light-2: #FFD559;
+  --yellow-dark-1: #E6B117;
+  --yellow-dark-2: #D9A200;
+
+  --gray-blue-10: #0D111A;
+  --gray-blue-15: #131926;
+  --gray-blue-20: #1A2233;
+  --gray-blue-25: #202B40;
+  --gray-blue-30: #26334D;
+  --gray-blue-35: #2D3C59;
+  --gray-blue-40: #334466;
+  --gray-blue-45: #3F5073;
+  --gray-blue-50: #4D5E80;
+  --gray-blue-55: #62708C;
+  --gray-blue-60: #6B7A99;
+  --gray-blue-65: #7C8AA6;
+  --gray-blue-70: #7D8FB3;
+  --gray-blue-75: #99A6BF;
+  --gray-blue-80: #ADB8CC;
+  --gray-blue-85: #C3CAD9;
+  --gray-blue-90: #DADEE6;
+  --gray-blue-91: #DCE0E8;
+  --gray-blue-92: #DFE3EB;
+  --gray-blue-93: #E1E5ED;
+  --gray-blue-94: #E4E7F0;
+  --gray-blue-95: #EDEFF2;
+  --gray-blue-96: #F2F3F5;
+  --gray-blue-97: #F5F6F7;
+  --gray-blue-98: #F7F8FA;
+  --gray-blue-99: #FAFBFC;
+  --gray-blue-100: #FFFFFF;
+
+}

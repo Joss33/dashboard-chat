@@ -1,0 +1,20 @@
+ .drawer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  overflow-y: auto;
+  transition: all;
+  background-color: white;
+  width: 26.875rem;
+  height: 100vh;
+  transition-property: transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;
+}
+
+.drawer.inactive{
+   transform: translateX(-100%);
+ }
+
+.drawer.active{
+   transform: translateX(0%);
+ }

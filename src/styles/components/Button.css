@@ -1,0 +1,41 @@
+.btn{
+  padding-top: var(--spacing-xs);
+  padding-right: var(--spacing-sm);
+  padding-left: var(--spacing-sm);
+  padding-bottom: var(--spacing-xs);
+  border-radius: var(--spacing-xs);
+  background-color: var(--gray-blue-100);
+  border: 0.125rem solid var(--gray-blue-97);
+  box-shadow: var(--shadow);
+  color: var(--gray-blue-60);
+  font-size: var(--spacing-sm);
+  font-weight: bold;
+}
+
+.btn-icon{
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 9999px;
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 1.125rem;
+}
+
+.btn-icon.btn-icon--medium{
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.badged-notification::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 9999px;
+  background-color: var(--pink);
+}

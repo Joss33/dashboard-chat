@@ -1,0 +1,19 @@
+.post{
+}
+
+.post-header{
+  display: flex;
+}
+
+.post-body{
+  max-width: 28.75rem;
+  border-radius: var(--spacing-xs);
+  border: 0.125rem solid var(--gray-blue-97);
+  box-shadow: var(--shadow);
+  padding: var(--spacing-lg);
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  color: var(--gray-blue-50);
+  margin-left: 3.75rem;
+}

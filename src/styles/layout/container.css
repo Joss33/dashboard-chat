@@ -1,0 +1,146 @@
+.container{
+  max-width: 71.875rem !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.875rem;
+  padding-left: 2.8125rem;
+  padding-right: 2.8125rem;
+  padding-bottom: 1.875rem;
+}
+
+@media screen and (min-width: 360px) {
+  .container{
+    max-width: 22.5rem !important;
+    padding-top: 0.9375rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-bottom: 0.9375rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    max-width: 48rem !important;
+    padding-top: 1.875rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.875rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container{
+    max-width: 75rem !important;
+    padding-top: 1.875rem;
+    padding-left: 2.8125rem;
+    padding-right: 2.8125rem;
+    padding-bottom: 1.875rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container{
+    max-width: 100rem !important;
+    padding-top: 1.875rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.row-xs{
+  margin-left: -0.3125rem;
+  margin-right: -0.3125rem;
+}
+
+.row.row-sm{
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+}
+
+.row.row-md{
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+.row.row-lg{
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
+.row.row-xl{
+  margin-left: -1.5625rem;
+  margin-right: -1.5625rem;
+}
+
+.row.row-2xl{
+  margin-left: -1.875rem;
+  margin-right: -1.875rem;
+}
+
+.col, [class^="col-"] {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  box-sizing: border-box;
+}
+
+.col-auto {
+  flex-basis: auto; /* Ancho automático basado en el contenido */
+}
+
+.col {
+  flex: 1; /* Ocupa el espacio disponible de manera equitativa */
+}
+
+.col-1 {
+  flex-basis: 8.33%; /* Ancho de una columna de 1/12 (8.33%) */
+}
+
+.col-2 {
+  flex-basis: 16.66%; /* Ancho de una columna de 2/12 (16.66%) */
+}
+
+.col-3 {
+  flex-basis: 25%; /* Ancho de una columna de 3/12 (25%) */
+}
+
+.col-4 {
+  flex-basis: 33.33%; /* Ancho de una columna de 4/12 (33.33%) */
+}
+
+.col-5 {
+  flex-basis: 41.66%; /* Ancho de una columna de 5/12 (41.66%) */
+}
+
+.col-6 {
+  flex-basis: 50%; /* Ancho de una columna de 6/12 (50%) */
+}
+
+.col-7 {
+  flex-basis: 58.33%; /* Ancho de una columna de 7/12 (58.33%) */
+}
+
+.col-8 {
+  flex-basis: 66.66%; /* Ancho de una columna de 8/12 (66.66%) */
+}
+
+.col-9 {
+  flex-basis: 75%; /* Ancho de una columna de 9/12 (75%) */
+}
+
+.col-10 {
+  flex-basis: 83.33%; /* Ancho de una columna de 10/12 (83.33%) */
+}
+
+.col-11 {
+  flex-basis: 91.66%; /* Ancho de una columna de 11/12 (91.66%) */
+}
+
+.col-12 {
+  flex-basis: 100%; /* Ancho de una columna de 12/12 (100%) */
+}

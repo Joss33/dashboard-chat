@@ -1,0 +1,36 @@
+.navigate{
+  border-bottom: 2px solid var(--gray-blue-95); 
+  padding: 1.5625rem;
+}
+.navigate-content{
+  max-width: 71.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 360px) {
+  .navigate-content{
+    max-width: 22.5rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigate-content{
+    max-width: 48rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navigate-content{
+    max-width: 75rem !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .navigate-content{
+    max-width: 100rem !important;
+  }
+}
